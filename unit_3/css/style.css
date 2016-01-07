@@ -1,6 +1,8 @@
 body {
   color: #343530;
   text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
 
 }
 
@@ -20,10 +22,16 @@ p {
   font-size: 17px;
   color: #343530;
   font-family: "Open Sans", sans-serif;
+  text-align: center;
 }
 
 #slogan  {
   font-family: "Open Sans", sans-serif;
   font-style: italic;
   font-size: 20px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
 }
