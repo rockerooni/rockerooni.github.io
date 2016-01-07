@@ -8,19 +8,22 @@ h1 {
   color: #343530;
   text-align: center;
   font-size: 85px;
+  font-family: "Open Sans", sans-serif;
 
 }
 
 hr {
-  width: 400px;
+  text-decoration: underline;
 }
 
 p {
   font-size: 17px;
   color: #343530;
+  font-family: "Open Sans", sans-serif;
 }
 
 #slogan  {
+  font-family: "Open Sans", sans-serif;
   font-style: italic;
   font-size: 65px;
 }
