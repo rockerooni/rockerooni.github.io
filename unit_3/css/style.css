@@ -7,6 +7,7 @@ body {
 h1 {
   color: #343530;
   text-align: center;
+  font-size: 85px;
 
 }
 
@@ -15,10 +16,11 @@ hr {
 }
 
 p {
-  font-size: 22px;
+  font-size: 17px;
   color: #343530;
 }
 
 #slogan  {
   font-style: italic;
+  font-size: 65px;
 }
