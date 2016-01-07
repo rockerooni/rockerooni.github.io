@@ -35,12 +35,12 @@ p {
   font-family: "Open Sans", sans-serif;
   font-style: italic;
   font-size: 28px;
-  text-align: left;
+  text-align: center;
 }
 
 ul {
   display: inline-block;
-  text-align:center;
+  text-align:left;
 }
 
 a {
