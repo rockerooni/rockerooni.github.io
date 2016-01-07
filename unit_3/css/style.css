@@ -39,7 +39,8 @@ p {
 }
 
 ul {
-  text-align: center;
+  display: inline-block;
+  text-align:left;
 }
 
 a {
