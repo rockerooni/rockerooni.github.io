@@ -1,0 +1,45 @@
+body {
+  color: #343530;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+
+}
+
+h1 {
+  color: #343530;
+  text-align: center;
+  font-size: 45px;
+  font-family: "Lora", serif;
+
+}
+
+h3 {
+  color: #343530;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+
+p {
+  font-size: 17px;
+  color: #343530;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+
+#slogan  {
+  font-family: "Lora", serif;
+  font-style: italic;
+  font-size: 28px;
+  text-align: center;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
