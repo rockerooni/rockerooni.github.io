@@ -23,6 +23,11 @@ header {
   padding: 20px;
 }
 
+#promo img {
+display: block;
+width: 100%;
+}
+
 #navigation {
   background-color: #FFE2B8;
   border: 1px black solid;
