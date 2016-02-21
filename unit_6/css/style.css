@@ -113,6 +113,7 @@ ul {
 a {
   text-decoration: none;
   font-family: 'Source Sans Pro', sans-serif;
+<<<<<<< HEAD
 }
 
 #two_column {
@@ -135,4 +136,6 @@ a {
     padding: 20px;
     float: right;   
     width: 62%;
+=======
+>>>>>>> origin/master
 }
