@@ -114,27 +114,3 @@ a {
   text-decoration: none;
   font-family: 'Source Sans Pro', sans-serif;
 }
-
-#three_column {
-  background-color: #FBB7CF;
-  border: 1px black solid;
-  padding: 20px;
-}
-
-#left {
-  background-color: #E582A2;
-  border: 1px black solid;
-  padding: 20px;
-}
-
-#center {
-  background-color: #E55B88;
-  border: 1px black solid;
-  padding: 20px;
-}
-
-#right {
-  background-color: #E582A2;
-  border: 1px black solid;
-  padding: 20px;
-}
