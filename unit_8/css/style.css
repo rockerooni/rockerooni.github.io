@@ -46,12 +46,17 @@ width: 100%;
   padding: 20px;
 }
 
-#navigation img {
-  display: inline-block;
-  width: 33%;
-  padding: 1%;
-  margin: 0 1%;
-  float: left;
+.nav-link {
+display: block;
+width: 33.3333%;
+float: left;
+}
+.nav-link img { width: 100%; }
+
+nav:after {
+display: block;
+content: ‘ ‘;
+clear: both;
 }
 
 
