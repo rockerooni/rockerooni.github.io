@@ -11,11 +11,87 @@
   box-sizing:border-box;
 }
 
+body {
+  color: #343530;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 17px;
+
+}
+
+h1 {
+  color: #343530;
+  text-align: center;
+  font-size: 45px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+}
+
+h3 {
+  color: #343530;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+}
+
+h4 {
+  color: #343530;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+}
+
+
+p {
+  font-size: 17px;
+  color: #343530;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
 header {
   background-color: #FFED74;
   border: 1px black solid;
   padding: 20px;
 }
+
+@media (max-width: 800px) {
+  nav {
+    float: none;
+  }
+
+  nav a {
+    margin: 0 1.6em .75em 0;
+  }
+
+  img {
+    width: 320px;
+  }
+    #about {
+    font-size: 1.4em;
+    line-height: 1.8em;
+  }
+}
+@media only screen and (max-width: 480px) {
+  h1, nav {
+    display: block;
+    text-align: center;
+  }
 
 #promo {
   background-color: #FFE2B8;
@@ -67,47 +143,7 @@ clear: both;
 
 
 
-body {
-  color: #343530;
-  text-align: center;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 17px;
 
-}
-
-h1 {
-  color: #343530;
-  text-align: center;
-  font-size: 45px;
-  font-family: 'Playfair Display', serif;
-  font-weight: 700;
-}
-
-h3 {
-  color: #343530;
-  text-align: center;
-  font-size: 30px;
-  font-family: 'Playfair Display', serif;
-  font-weight: 700;
-}
-
-h4 {
-  color: #343530;
-  text-align: center;
-  font-size: 18px;
-  font-family: 'Playfair Display', serif;
-  font-weight: 700;
-}
-
-
-p {
-  font-size: 17px;
-  color: #343530;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 400;
-  line-height: 1.5em;
-  text-align: center;
-}
 
 
 #slogan  {
