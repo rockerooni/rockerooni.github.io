@@ -47,6 +47,10 @@ width: 100%;
   padding: 20px;
 }
 
+.nav-img {
+  width: 33.3333%;
+}
+
 .nav-link {
 display: block;
 width: 33.3333%;
