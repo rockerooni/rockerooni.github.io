@@ -70,6 +70,36 @@ header {
   padding: 20px;
 }
 
+#left {
+    background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 62%;
+}
+
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#slogan  {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 28px;
+  font-weight: 400;
+  text-align: center;
+}
+
 @media (max-width: 800px) {
   nav {
     float: none;
@@ -87,35 +117,115 @@ header {
     line-height: 1.8em;
   }
 }
+
 @media only screen and (max-width: 480px) {
+
+header {
+  background-color: #FFED74;
+  border: 1px black solid;
+ /* width: 100%;*/
+  height: 50%;
+  padding: 5px;
+}
+
+header img {
+	width: 100%;
+}
+
   h1, nav {
     display: block;
     text-align: center;
   }
 
-#promo {
+  #navigation img {
+	  float: none;
+	  display: inline;
+	  width: 100%;
+  } 
+  
+  #promo {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 5px;	  
+  }
+  
+  #promo img {
+  display: block;
+  width: 100%;
+  }
+  
+  #navigation {  
+	background-color: #FFE2B8;
+	width: 100%;
+	border: 1px black solid;
+	padding: 5px;
+	}
+	
+	#slogan  {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 6vw;
+  font-weight: 400;
+  text-align: center;
+}
+
+.instagram h2 {
+	font-size: 5vw;
+}
+
+#left {
+    background-color: violet;
+    border: 1px black solid;
+    padding: 5px;
+    float: none;
+    width: 100%;
+	font-size: 3vw;
+}
+
+#right {
+    background-color: pink;
+    border: 1px black solid;
+    padding: 5px;
+    float: none;   
+    width: 100%;
+	font-size: 3vw;
+}
+
+#right a {
+	font-size: 3vw;
+}
+
+#right p {
+	font-size: 3vw;
+}
+
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 3px;
+}
+
+h4 {
+  color: #343530;
+  text-align: center;
+  font-size: 5vw;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+}
+	
+}
+
+
+
+/*#instagram {
   background-color: #FFE2B8;
   border: 1px black solid;
   padding: 20px;
 }
 
-#promo img {
-display: block;
-width: 100%;
-}
-
-#navigation {
-  background-color: #FFE2B8;
-  width: 33.3333%;
-  border: 1px black solid;
-  padding: 20px;
-}
-
-#instagram {
-  background-color: #FFE2B8;
-  border: 1px black solid;
-  padding: 20px;
-}
+#instagram h2 {
+	txt-align: center;
+} */
 
 #article {
   background-color: #E89C6C;
@@ -123,9 +233,9 @@ width: 100%;
   padding: 20px;
 }
 
-#navigation {
+/*#navigation {
   width: 33.3333%;
-}
+}*/
 
 .nav-link {
 display: block;
@@ -146,13 +256,7 @@ clear: both;
 
 
 
-#slogan  {
-  font-family: 'Playfair Display', serif;
-  font-style: italic;
-  font-size: 28px;
-  font-weight: 400;
-  text-align: center;
-}
+
 
 ul {
     text-align: center;
@@ -163,28 +267,6 @@ ul {
 a {
   text-decoration: none;
   font-family: 'Source Sans Pro', sans-serif;
-}
-
-#two_column {
-    background-color: #FFB7CF;
-    border: 1px black solid;
-    padding: 20px;
-}
-
-#left {
-    background-color: violet;
-    border: 1px black solid;
-    padding: 20px;
-    float: left;
-    width: 30%;
-}
-
-#right {
-    background-color: pink;
-    border: 1px black solid;
-    padding: 20px;
-    float: right;   
-    width: 62%;
 }
 
 .clearfix:after {
